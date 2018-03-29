@@ -1,42 +1,40 @@
 # Anaconda-Navigator-and-Python-updation
-1.  Python 5 dose not support latest updation of OpenCv.
+1.  Most of the time the process of installation leads to errors.
 
-2.  Most of the time the process of installation leads to errors.
+2.  Here I am providing steps to upgrade your python in anaconda navigation without loss of any stacks. 
 
-3.  Here I am providing steps to upgrade your python in anaconda navigation without loss of any stacks. 
+3.  First launch your anaconda prompt.
 
-4.  First launch your anaconda prompt.
+4.  Its better to update your anaconda naviagtor to latest version.
 
-5.  Its better to update your anaconda naviagtor to latest version.
+5.  Check your anaconda navigator version.
 
-6.  Check your anaconda navigator version.
+6.  Command    python --version
 
-7.  Command    python --version
+7.  Update Annaconda Navigator using.
 
-8.  Update Annaconda Navigator using.
+8.  Command    conda update anaconda
 
-9.  Command    conda update anaconda
+9. Check the updated version of your navigator using command at step 6.
 
-10. Check the updated version of your navigator using command at step 7.
+10. Next update your python.
 
-11. Next update your python.
+11. Check your anaconda navigator version using command at step 6.
 
-12. Check your anaconda navigator version using command at step 7.
+12. Command    conda update python
 
-13. Command    conda update python
+13. This command will update the python at root of Anaconda navigator.
 
-14. This command will update the python at root of Anaconda navigator.
+14. Be patient it takes a while during Solving Environment step.
 
-15. Be patient it takes a while during Solving Environment step.
+15. After last step "Executing Transaction : done" if prompt doesnt show up user path press ctrl+z.
 
-16. After last step "Executing Transaction : done" if prompt doesnt show up user path press ctrl+z.
+16. Check the updated version of your python using command at step 6.
 
-17. Check the updated version of your python using command at step 7.
+17. You can see the updated version of your python.
 
-18. You can see the updated version of your python.
+18. Now launch your anaconda navigator.
 
-19. Now launch your anaconda navigator.
+19. Go to Environment->root and check your dependencies you can see some of the dependency been updated.
 
-20. Go to Environment->root and check your dependencies you can see some of the dependency been updated.
-
-21.Next launch your Spyder you can verify the update version of python at left corner top label of Spyder.
+20.Next launch your Spyder you can verify the update version of python at left corner top label of Spyder.
